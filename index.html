@@ -31,7 +31,9 @@
       <google-codelab-step label="ワークショップについて" duration="2">
         <p>ワークショップは <a href="https://patterns.hattori.dev/ja/" target="_blank">GitHub Copilot Patterns &amp; Exercises</a> の内容を一部参照しています。</p>
 <p>時間の関係上、このワークショップでカバーしきれないパートがありますので、ご興味のある方は、ぜひ <a href="https://patterns.hattori.dev/ja/" target="_blank">GitHub Copilot Patterns &amp; Exercises</a> もご参照ください。</p>
-<p class="image-container"><img src="img/c3a1e8d54688d46.png"></p>
+<p><a href="https://patterns.hattori.dev/ja/" target="_blank"><img src="img/c3a1e8d54688d46.png"></a></p>
+<p>ワークショップの解説に使ったスライドは<a href="https://speakerdeck.com/yuhattor/github-copilot-workshop" target="_blank">こちら</a>に格納してございます。</p>
+<p><a href="https://speakerdeck.com/yuhattor/github-copilot-workshop" target="_blank"><img src="img/c5e8d25cbe8d95a6.png"></a></p>
 
 
       </google-codelab-step>
@@ -597,7 +599,7 @@ answer = substruct_numbers(1, 2) + add_numbers( # &lt;GitHub Copilot will sugges
 
       </google-codelab-step>
     
-      <google-codelab-step label="Topic: ハイレベルアーキテクチャを先に" duration="0">
+      <google-codelab-step label="Topic: ハイレベルアーキテクチャを先に" duration="2">
         <p>複雑なシステムを開発するとき、いきなり細部のコードに飛び込み、プログラムの全体的なアーキテクチャを見失うことはよくあることです。このような事が繰り返されると、同時に GitHub Copilot も全体的なアーキテクチャを見失うことに繋がります。これは誤解やエラーの原因となってしまいます。開発において、プログラムのハイレベルなアーキテクチャを先に設計し、コードの各部分の機能と目的についてコメントしていくことにより、GitHub Copilot も文脈をよりよく理解し、より的確な提案をすることができます。</p>
 <h3 is-upgraded>Example</h3>
 <p>ウェブアプリケーションでのAPIエンドポイントファイルを考えてみましょう。初期に設計を自然言語で提案することは、各エンドポイントの機能を GitHub Copilot に理解させるのに役立ちます。</p>
@@ -631,7 +633,7 @@ answer = substruct_numbers(1, 2) + add_numbers( # &lt;GitHub Copilot will sugges
 
       </google-codelab-step>
     
-      <google-codelab-step label="Topic: 小さなまとまりで作業する" duration="0">
+      <google-codelab-step label="Topic: 小さなまとまりで作業する" duration="1">
         <p>小さなコードの断片をより少ないコンテキストで扱うと、GitHub Copilot の出力が向上します。複雑なアプリケーションを構築していると想像してください。すべてを一度に生成しようとする代わりに、タスクを小さな部分に分割し、限定されたコンテキストを GitHub Copilot に提供します。このアプローチは開発プロセスを合理化するだけでなく、生成されたコードの品質も向上させます。</p>
 <p>コンテキストレスなアーキテクチャをデザインの段階で考慮するアイデアもありますが、すべてのプロジェクトで疎結合のアーキテクチャを適用することは難しいです。また、AIツールの精度を高めるためにアーキテクチャデザインを変えるのは本末転倒です。このパターンでは、少なくとも作業環境でコンテキストができるだけ小さくなるように、小さなチャンクで作業することによりGitHub Copilot の提案を向上させることを目的としています。GitHub Copilot が、全体的なプロジェクトの複雑さに圧倒されることなく、手がかりの具体的なタスクを理解できるようにする、よりコントロールされた、正確で、効率的なコード生成が可能です。</p>
 <h3 is-upgraded>Example</h3>
