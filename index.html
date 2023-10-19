@@ -483,7 +483,7 @@ class CreateCooperationPass &lt; ActiveRecord::Migration[7.0]
 
       </google-codelab-step>
     
-      <google-codelab-step label="Copilot スニペットハンドリング" duration="5">
+      <google-codelab-step label="エディタテクニック: Copilot スニペットハンドリング" duration="5">
         <p>そして、GitHub Copilot は OpenAI の 大規模言語モデルを利用してコードを生成するため、トークンの数に制限があります。2023 年現在、GitHub Copilot はエディタで開いているコード全てを見ることができず、また AI もすべてのコードをトークンとして受け取るわけではありません。これは、ユーザーが GitHub Copilot に提供するコンテキストを慎重に制限する必要があることを意味しています。特筆すべきは、GitHub Copilot は外部リポジトリや GitHub.com / GitHub Enterprise Cloud に置かれたソースコードにはアクセスしていないということです。</p>
 <p>GitHub Copilot が提案に使用するファイルは、主に現在開いているファイルとそれに隣接するタブファイル(基本的には同じファイル拡張子)です。 正確な提案をするためには、関連するファイルだけを開いておくことが不可欠です。 以下は、2023年8月時点のチェックリストです。 GitHub Copilot がスニペットとして含めるファイルの種類は将来変更される可能性がありますが、「不要なファイルを閉じる」などの実践は、GitHub Copilot を使用していない場合であっても、コーディングにプラスの影響を与える可能性があります。</p>
 <ul>
@@ -520,7 +520,7 @@ answer = substruct_numbers(1, 2) + add_numbers( # &lt;GitHub Copilot will sugges
 
       </google-codelab-step>
     
-      <google-codelab-step label="GitHub Copilot ショートカット" duration="5">
+      <google-codelab-step label="エディタテクニック: GitHub Copilot ショートカット" duration="5">
         <p>GitHub Copilot は、開発者にコーディングプロセスを加速させるためのキーボードショートカットを提供します。これらのショートカットは、GitHub Copilot のAIによる提案とのナビゲーションやインタラクションを直感的かつ効率的に行うのに役立ちます。このパターンでは、GitHub Copilot を使用した迅速なコード開発に不可欠なキーボードショートカットを探求します。</p>
 <h3 is-upgraded>Example</h3>
 <p>例えば、GitHub Copilot からの提案を受け入れるには、<code>TAB</code> を押すだけで良いです。以下はいくつかの重要なショートカットのリストです:</p>
@@ -555,7 +555,7 @@ answer = substruct_numbers(1, 2) + add_numbers( # &lt;GitHub Copilot will sugges
 
       </google-codelab-step>
     
-      <google-codelab-step label="便利なファイルのピン留め" duration="5">
+      <google-codelab-step label="エディタテクニック: 便利なファイルのピン留め" duration="5">
         <p>GitHub Copilot の性能は、提供されるコンテキストに依存します。GitHub Copilot はテキストの類似性で開いているタブを検索し、大規模言語モデルにスニペットを送信します。したがって、私たちは AI に提供したいコンテキストを慎重に考える必要があります。プログラミングでは、宣言ファイル（d.ts）、テストファイル、インターフェイスファイルなどが豊富なコンテキスト情報を含んでいます。Visual Studio Codeのピン留め機能を使用すると、これらのファイルを必要に応じて簡単にアクセスし、GitHub Copilotに効率的に情報を提供できます。</p>
 <h3 is-upgraded>Example</h3>
 <p>Visual Studio Codeでファイルをピン留めする方法は次のとおりです:</p>
@@ -580,7 +580,7 @@ answer = substruct_numbers(1, 2) + add_numbers( # &lt;GitHub Copilot will sugges
 
       </google-codelab-step>
     
-      <google-codelab-step label="定義に移動" duration="5">
+      <google-codelab-step label="エディタテクニック: 定義に移動" duration="5">
         <p>複雑なコードベースで作業する際に、特定の関数やクラスの定義を見つけるためにファイル間をジャンプしたり、コードのレイヤーを検索するのは面倒です。&#34;定義に移動&#34; は、Visual Studio Code の便利な機能で、開発者が現在のファイル内の関数やクラスの定義にすばやく移動できるようにします。これによって生産性が向上するだけでなく、コード構造の理解も深まります。GitHub Copilot は開いているタブを読み取ります。&#34;定義に移動&#34; を使い実装を遡りながらファイルを開いていくことで、コードの奥深くにある定義に関連するコードスニペットも GitHub Copilot に渡すことができます。</p>
 <h3 is-upgraded>Example</h3>
 <p>Visual Studio Codeの &#34;定義に移動&#34; 機能を使用するには、調べたい関数やクラスを右クリックし、&#34;定義に移動&#34; を選択します。 ショートカット <code>F12</code> も使用できます。以下のように行うことができます。</p>
