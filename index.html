@@ -261,12 +261,10 @@ if __name__ == &#39;__main__&#39;:
         <p>テストに関する指示を具体的に示すことは、必要なシナリオをすべてカバーする良い方法です。&#34;ユニットテストを追加する&#34;といった曖昧な指示ではなく、テストフレームワークや生成するケースの数などの具体的な詳細を提供することができます。GitHub Copilotのようなツールを活用する際には、「JunitとMockitoを使用してユニットテストを追加し、少なくとも10種類の有効な/無効な入力の組み合わせをテストする」といった指定を行うことで、より正確で包括的な結果を得ることができます。</p>
 <h3 is-upgraded>Example</h3>
 <p>Junit と Mockito を使用してテストコードを生成する場合、次のプロンプトを GitHub Copilot に提供できます:</p>
-<pre><code language="language-java" class="language-java">// JunitとMockitoを使用してユニットテストを追加する
-// 少なくとも10種類の有効な/無効な入力の組み合わせをテストする
-@Test
-public void validateInput() {
-  // ここにコードを記述
-}
+<pre><code language="language-java" class="language-java"># pytest でテストを書いてください
+# 少なくとも10種類の有効な/無効な入力の組み合わせをテストする
+def test_judge():
+  # ここにテストケースを記載する
 </code></pre>
 <h2 is-upgraded>Exercise</h2>
 <ul>
