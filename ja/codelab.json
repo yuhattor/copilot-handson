@@ -1,0 +1,22 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2023-10-24T02:11:42Z",
+  "id": "docs",
+  "duration": 105,
+  "title": "GitHub Copilot ワークショップ",
+  "summary": "GitHub Copilot",
+  "source": "workshop.ja.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": null,
+  "tags": [
+    "web"
+  ],
+  "feedback": "https://github.com/yuhattor/copilot-handson-jp",
+  "url": "docs"
+}
